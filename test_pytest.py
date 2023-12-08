@@ -45,6 +45,7 @@ def test_checkout_books_not_enough_copies():
     result = library.checkout_books(selections)
     assert result == -1
 
+
 def test_return_books_success():
     library = Library()
     book = library.books[0]
